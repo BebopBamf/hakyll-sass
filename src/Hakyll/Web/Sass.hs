@@ -16,6 +16,8 @@ module Hakyll.Web.Sass
 , module Text.Sass.Options
 ) where
 
+-- import Prelude
+
 import Control.Monad (join)
 import Data.Default.Class
 import Hakyll.Core.Compiler
@@ -26,7 +28,6 @@ import Hakyll.Core.Provider
 import System.FilePath (takeExtension)
 import Text.Sass.Compilation
 import Text.Sass.Options
-import Prelude
 
 -- | Compiles a SASS file into CSS. Use the file extension to determine SCSS
 -- from SASS formatting.
